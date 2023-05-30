@@ -1,0 +1,186 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'API ReceitaWS'
+  ClientHeight = 316
+  ClientWidth = 419
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Top
+    Margins.Top = 10.000000000000000000
+    Position.Y = 10.000000000000000000
+    Size.Width = 419.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    object edtCNPJ: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 0
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Margins.Left = 15.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Size.Width = 333.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Digite o CNPJ'
+      StyledSettings = [Family, FontColor]
+    end
+    object spPESQUISA: TSpeedButton
+      Align = Right
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 363.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'searchtoolbuttonbordered'
+      Text = 'spPESQUISA'
+      OnClick = spPESQUISAClick
+    end
+  end
+  object Layout2: TLayout
+    Align = Top
+    Margins.Top = 10.000000000000000000
+    Position.Y = 70.000000000000000000
+    Size.Width = 419.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    object edtRAZAO: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 1
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Margins.Left = 15.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Size.Width = 389.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Raz'#227'o Social'
+      StyledSettings = [Family, FontColor]
+    end
+  end
+  object Layout4: TLayout
+    Align = Top
+    Margins.Top = 10.000000000000000000
+    Position.Y = 190.000000000000000000
+    Size.Width = 419.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object edtBAIRRO: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 4
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Margins.Left = 15.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Size.Width = 236.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Bairro'
+      StyledSettings = [Family, FontColor]
+    end
+    object edtCEP: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Right
+      TabOrder = 5
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Position.X = 266.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Size.Width = 138.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'CEP'
+      StyledSettings = [Family, FontColor]
+    end
+  end
+  object Layout3: TLayout
+    Align = Top
+    Margins.Top = 10.000000000000000000
+    Position.Y = 130.000000000000000000
+    Size.Width = 419.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object edtLOGRADOURO: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 2
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Margins.Left = 15.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Size.Width = 325.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Logradouro'
+      StyledSettings = [Family, FontColor]
+    end
+    object edtNUMERO: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Right
+      TabOrder = 3
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Position.X = 355.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'N'#176
+      StyledSettings = [Family, FontColor]
+    end
+  end
+  object Layout5: TLayout
+    Align = Top
+    Margins.Top = 10.000000000000000000
+    Position.Y = 250.000000000000000000
+    Size.Width = 419.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    object edtCIDADE: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 6
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Margins.Left = 15.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Size.Width = 308.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Cidade'
+      StyledSettings = [Family, FontColor]
+    end
+    object edtUF: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Right
+      TabOrder = 7
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Position.X = 338.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Size.Width = 66.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'UF'
+      StyledSettings = [Family, FontColor]
+    end
+  end
+end

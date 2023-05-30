@@ -1,2 +1,6 @@
-# APIReceitaWS
-Integração com a API da ReceitaWS para recuperar dados de CNPJs usando o Delphi
+# API CNPJ
+Conectando com a API da ReceitaWS utilizando componentes nativos do Delphi
+
+# Video explicativo
+
+
