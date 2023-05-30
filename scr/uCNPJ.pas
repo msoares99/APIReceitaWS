@@ -1,3 +1,16 @@
+{
+  ===========================================================================
+
+  Copyright (c) 2023 MANASSÉS DE ASSIS SOARES
+
+  Todos os direitos reservados.
+
+  [Classe de conexão com a API da ReceitaWS]
+
+  ===========================================================================
+}
+
+
 unit uCNPJ;
 
 interface
